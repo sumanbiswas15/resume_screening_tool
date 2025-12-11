@@ -1,0 +1,20 @@
+# streamlit
+# pandas
+# numpy
+# scikit-learn
+# spacy
+# pdfplumber
+# python-docx
+# openpyxl
+# tqdm
+# sentence-transformers   # optional, for semantic embeddings
+# pytesseract             # optional, if you need OCR for scanned PDFs
+# Pillow                  # for OCR pipeline
+
+
+streamlit
+pandas
+scikit-learn
+pdfplumber
+python-docx
+spacy

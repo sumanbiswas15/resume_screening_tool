@@ -1,0 +1,73 @@
+SOFTWARE ENGINEERINGMANAGER
+Summary
+Experienced softwareengineer,and hands-on engineeringmanager with 20+ years of product developmentexperiencein broadcastmedia,and
+10+ years ofexperiencein leading development teams (20+ engineers), hiring (10+ offers, 40+ interviews), HRpersonnel procedures,
+performancereviews,and project transitions.
+Experience
+09/2009 to Current
+Software EngineeringManager CompanyNameï¼ City , State
+
+	VisualC++, Windows, OOP, STL, WinAPI, MFC, threads, ATL, IPC, FTP, TCP, HTTP, XML, JSON, services, web services, REST
+	API, SOA, mediaformatsand standards,codec SDK, MPEG-DASH, API design and documentation.
+	BCDspinoffas Imagine in (2013) Nexio video serversand applications run in various nodes ofNexio LAN to facilitatecollaborative video
+	broadcast workflows.
+	Mediacomes fromproprietary SAN or genericstorage offNAS.
+	Developmentand teammanagement, Nexio servers' applications, Playout business unit:Led teamof 22 developers fromBurbank (6),
+	Naperville(8),and Beijing (8 indirect), introduced peer reviews, repurposed components,and all 3 teamscollaborated as onelargeteam,
+	and leading teamof 3 to 6 fromBurbank since 2014,adopted Scrum(ScrumMaster), facilities right-sized,and released deliverables for
+	Nexio Software Suite 6.0, 7.0, 8.0 and GlobalProxy Suite 2.5, 3.0, 3.5.
+	Teamhandles vendorcommunications forcodeclevelcustomer issues,and teammigrated sourcerevision controlto Mercurial, Jenkins,
+	30+ products.
+	Published functional, RESTAPI,and URI specification document for Hercules web service,and 10 JSON protocolAPI documents for 3rd
+	party and in-house use.
+	Selected hands-on projects include:Service-oriented architecture:Initiated,architected and executed SOAfromconcept to completion to
+	facilitatecentralized web client opportunities,and 24/7 service models,and teamdelivered 2 web services, 10 services, 5 desktop clients,
+	and 3 web client pages foressentialfunctions includingmedia playback, metadataaccess, proxymanagement,and two-domain content
+	management.
+	Hercules web servicefor web player solution based offMPEG-DASH:Created complete backend C++ engineto process URI, provide
+	dynamic HTML5 player page, JavaScriptsource based off dash JS, handle"ready to go"and "just in time"sources,and deliver segmented
+	MP4 atoms (H.264, AAC),and teamhelped with providingC# web serviceframework, CLI bridgelayer,and devicetesting.
+	JSON services onTCP stack usingC++ as part ofSOA:Created header only parser on top of"rapid json"for SAXstylereader, multithreaded server side API framework classes for request-	responseand notificationmethods, developed newservices Content Manager,and
+	Picon,evolved Encoder, GPRX, Helios, MB, Scavenger,and Transcoderas services,and guided Helper,and Requestor to completion.
+	Contentmanager servicefor primary-backup workflows:Architected and developed rules-based, dynamic, multi-threaded C++ engineto
+	manage mediacontents,and metadata updates between two domains.
+	Scavenger, Transcoder for proxymedia:Proposed newmethod, teamed up,and successfullywrotetwo new24/7 products to replace
+	escalated legacy products that required regular hand holding.
+	MediaBase DLL, desktop explorer:Guided to optimizefor 200K IDs to meetstoragescalability,and achieved interactive UI performance
+	forallconditions regardless of user operation.
+	DTA-Handlerarchitecturein ftp-server:Proposed to introducesingle handler to help consolidateallformatsas one product build,and
+	scalability,and teamadded oneconverter DLL percontainer for importand export.
+
+11/2005 to 08/2009
+Software EngineeringManager CompanyNameï¼ City , State
+
+	Developmentand teammanagement, Nexio editing applications:.
+	Hired, mentored and builtcoreediting teamto size of 8 fromNaperville,collaborated with expanded teaminBeijing (8 indirect), teamed up
+	to develop server integrationmodules for video broadcast workflows,and released deliverables for Video Editing Suite 2.5.
+	Established development process document forconsistent proceduresand peercodereviewguidelines,and teamestablished crash dump
+	analysis procedures to help troubleshoot hard to repeat issues.
+
+08/1997 to 10/2005
+PrincipalSoftware Engineer CompanyNameï¼ City , State
+
+	(Harris Corporation acquired Leitch) Architected, designed,and implemented fundamentalDLL components forevolution of video editing
+	product,and selected major projects include(C++, Win32, threads,codec SDK, driver SDK, MFC):Interactive playback architecture
+	Video and audio rendering engines Scalable decoderand encodercomponents Hardwareintegrationmodules (critical part of business
+	success in post-production space) Interactive picon and waveformdrawing components.
+
+08/1994 to 07/1997
+Software Engineer CompanyNameï¼ City , State
+
+	DPS acquired Star Media; (Leitch acquired DPS in 2000).
+	Star Media, technology startup,created video editing software Velocity for post-production space,and developed projects include Project
+	media management tools, Render Bank,and video effects.
+	Education
+	M.S :Computer ScienceIllinois Institute ofTechnology ï¼ City , State Computer Science
+	B.E :Electronicsand CommunicationEngineeringNationalInstitute ofTechnology ï¼ City India Electronicsand CommunicationEngineering
+
+Skills
+
+	API, ATL,audio, backup, broadcast, C++, CLI, Hardware,concept,contentmanagement, Content,client,clients, documentation, dynamic
+	HTML5,editing, XML, FTP, functional, drawing, HTTP, IDs,explorer, JavaScript, json, LAN, MB,access, C#, MFC, Win, Windows, 2000,
+	NAS, OOP, page, Proxy, rendering, SAN, Scrum, servers, specification, teammanagement, threads, troubleshoot, Video, Video Editing, Visual
+	C++
