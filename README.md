@@ -78,6 +78,4 @@ The `skills.txt` file contains a list of skills used for matching. It has been e
 - Skills matching improves by using the skills file for substring-based extraction.
 - For best results, ensure job descriptions and resumes are in English.
 
-## License
 
-[Add license if applicable]
