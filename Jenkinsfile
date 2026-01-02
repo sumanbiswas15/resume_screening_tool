@@ -3,18 +3,23 @@ pipeline {
 
     stages {
 
-        stage('Install Dependencies') {
+        stage('Setup Python Venv') {
             steps {
                 sh '''
-                python3 --version
-                pip3 install --user -r requirements.txt
+                python3 -m venv venv
+                . venv/bin/activate
+                pip install --upgrade pip
+                pip install -r requirements.txt
                 '''
             }
         }
 
         stage('Test Application') {
             steps {
-                sh 'python3 -c "import streamlit; print(\'CI Test Passed\')"'
+                sh '''
+                . venv/bin/activate
+                python3 -c "import streamlit; print('CI Test Passed')"
+                '''
             }
         }
 
