@@ -1,9 +1,19 @@
 pipeline {
     agent any
 
+    environment {
+        IMAGE_NAME = "sumanbiswas22/resume-screening-app"
+    }
+
     stages {
 
-        stage('Setup Python Venv') {
+        stage('Checkout Code') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Setup Python venv & Install Deps') {
             steps {
                 sh '''
                 python3 -m venv venv
@@ -14,19 +24,35 @@ pipeline {
             }
         }
 
-        stage('Test Application') {
+        stage('Docker Build') {
             steps {
                 sh '''
-                . venv/bin/activate
-                python3 -c "import streamlit; print('CI Test Passed')"
+                docker build -t $IMAGE_NAME:latest .
                 '''
             }
         }
 
-        stage('Docker Build') {
+        stage('Docker Login') {
             steps {
-                sh 'docker build -t resume-screening-app .'
+                withCredentials([usernamePassword(
+                    credentialsId: 'dockerhub-creds',
+                    usernameVariable: 'DOCKER_USER',
+                    passwordVariable: 'DOCKER_PASS'
+                )]) {
+                    sh '''
+                    echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
+                    '''
+                }
+            }
+        }
+
+        stage('Push Image to Docker Hub') {
+            steps {
+                sh '''
+                docker push $IMAGE_NAME:latest
+                '''
             }
         }
     }
 }
+
